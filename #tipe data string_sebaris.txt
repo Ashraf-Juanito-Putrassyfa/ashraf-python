@@ -1,0 +1,146 @@
+#tipe data string_sebaris
+string_1 = "hello python"
+print (string_1)
+
+text ="a multiline string\nin python"
+print (text)
+
+text ="""a multiline string in python"""
+print (text)
+
+#(\) atau (""") kutip 2 3x, bisa jadi pengganti backspace seperti diatas
+
+
+print ("\n==============================")
+print ("\t\n\t\tBIODATA SISWA\t\n\t\t ")
+print ("==============================\n")
+
+print ("Nama\t:\tAshraf juanito putrassyfa")
+print ("Nis \t:\t17517")
+print ("Jurusan\t:\tRekayasa perangkat lunak")
+print ("Umur\t:\t16")
+print ("Hobi\t:\tmain game")
+
+
+
+#type data none
+
+data = None
+
+nama = "ashraf"
+if nama is None: 
+   print ("nama belum diisi")
+else:
+    print("nama kamu adalah:",  nama)
+    
+    
+    
+#type code list
+
+list_1 = [2,4,8,16]
+print(list_1[0])
+
+list_2=["grayson","jason","tim","damian"]
+print(list_2[2])
+
+list_3 = [24,False,"hello python"]
+print(list_3[1])
+
+
+#1.append(menambahkan elemen di akhir list)
+print ("\n\n append")
+buah = ["stroberi","mangga"]
+buah.append("apel")
+print(buah)
+
+#2.extend
+#(menambahkan elemen sekaligus dari list lain ke akhir list)
+print ("\n\n extend")
+buah = ["stroberi","mangga"]
+buah.extend(["apel","soryy ga level"])
+print(buah)
+
+#3.insert
+#(menambahkan elemen pada posisi tertentu (bukan di akhir))
+print ("\n\n insert")
+angka = [1,2,3] 
+angka.insert(3,4)
+print(angka)
+
+
+#4.pop
+#(menghapus elemen berdasarkan indeks)
+#(atau terakhir jika tidak disebutkan)
+print ("\n\n pop")
+buah = ["stroberi","mangga","apel","sorry","ga","level"]
+buah.pop(1)
+print(buah)
+
+
+#5.sort
+print ("\n\n sort")
+angka = [5,2,9,1,10,22,37,14]
+angka.sort
+print(angka)
+
+
+#6.clear
+print ("\n\n clear")
+data = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+data.clear()
+print(data)
+
+#7.remove (menghapus elemen berdasarkan nilai,bukan indeks)
+print ("\n\n remove")
+buah = ["apel","mangga","nanas","alpukat"]
+buah.remove("nanas")
+print(buah)
+
+
+#8.index (menemukan posisi [index]dari elemen tertentu)
+
+nama = ["wildan","robert","josep"]
+print(nama.index("robert"))
+
+
+#9.reverse (membalik urutan elemen list tanpa mengurut)
+
+warna = ["merah","kuning","hijau"]
+warna.reverse()
+print(warna)
+
+
+#10.count 
+#(menghitung beberapa kali angka suatu nilai muncul dalam list)
+
+
+
+
+
+print ("\n\n\n========== program dafta belanja ==========\n\n\n")
+
+
+
+troli = ["gula","sawi","daging","santan","cengkeh","susu","garam"]
+
+print ("\ntambah barang")
+troli.append("apel")
+print(troli)
+
+print ("\nhapus barang")
+troli.pop(5)
+print(troli)
+
+print ("\nlihat daftar")
+troli.sort
+print(troli)
+
+print("\nhapus semua")
+troli.remove("garam")
+print(troli)
+
+print("\nexite")
+troli.clear()
+print(troli)
+
+

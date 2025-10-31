@@ -1,0 +1,110 @@
+print("\t\t==match day==\n")
+hari = 7
+match hari:
+    case 1 :
+        print("senin")
+    case 2 :
+        print("selasa")
+    case 3 :
+        print("rabu")
+    case 4 :
+        print("kamis")
+    case 5 :
+        print("jumat")
+    case 6 :
+        print("sabtu")
+    case 7 :
+        print("minggu")
+
+print("\t\t==match month==\n")
+bulan = 6
+match bulan:
+    case 1 :
+        print("januari")
+    case 2 :
+        print("febuari")
+    case 3 :
+        print("maret")
+    case 4 :
+        print("april")
+    case 5 :
+        print("mei")
+    case 6 :
+        print("juni")
+    case 7 :
+        print("juli")
+    case 8 :
+        print("agustus")
+    case 9 :
+        print("september")
+    case 10 :
+        print("oktober")
+    case 11 :
+        print("november")
+    case 12 :
+        print("desember")
+
+print("\t==match day and month school==\n")
+bulan = 4
+hari = 5
+match hari:
+    case 1|2|3|4|5 if bulan ==4:
+        print("sekolah di bulan april")
+    case 1|2|3|4|5 if bulan ==5:
+        print("sekolah di bulan mei")
+    case _:
+        print("tno match")
+
+print("\n\t\t==match day go to school==\n")
+hari = 7
+match hari :
+    case 1 | 2 | 3 | 4 | 5 :
+       print("masuk sekolah")
+    case 6 | 7 :
+       print("liburrrr")
+
+#mested
+print("\n\t\t\t\t=MESTED=")
+
+max = int(input("jumlah bintang = "))
+for i in range(max):
+    for j in range(i):
+        print("", end="*")
+    print()
+max = int(input("jumlah bintang = "))
+for i in range(max):
+    for j in range(0, max - i):
+        print("*", end="")
+    print()
+
+#belajar berhitung
+print("\t\t=belajar berhitung=")
+a = int(input("masukkan angka pertama: "))
+b = int(input("masukkan angka kedua: "))
+operator = input("masukkan operator (+, -, *,/):")
+
+
+match operator:
+    case "+":
+        hasil = a + b
+        print(f"hasil dari {A} + {b} = {hasil}")
+    case "-":
+        hasil = a - b
+        print(f"hasil dari {a} - {b} = {hasil}")
+    case "*":
+        hasil = a * b
+        print(f"hasil dari {a} * {b} = {hasil}")
+    case "/":
+       if b != 0:
+        hasil = a / b
+        print(f"hasil dari {a} / {b} = {hasil}")
+       else: 
+        print("Error: prmbagian dengan nol tidak bisa ")
+    case _:
+        print("operator tidak dikenal ")
+
+
+
+
+
+

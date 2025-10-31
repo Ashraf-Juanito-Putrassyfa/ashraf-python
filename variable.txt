@@ -1,0 +1,41 @@
+#variabel
+nama = "ashraf"
+mapel_fav = "B.indo"
+nilai = 95
+laki_laki = True
+
+print("======data nilai======")
+print("nama: %s" % ("nama"))
+print("mapel_fav: %s, \nnilai: %d, \nlaki_laki: %r,\n " % (mapel_fav, nilai, laki_laki))
+
+
+
+#tugas
+
+brng_1 = "lecy"
+hrg_1 = 75000
+brng_2 = "blackcurrent"
+hrg_2 = 75000
+brng_3 = "indigo"
+hrg_3 = 50000
+brng_4 = "fresh sweet teamix"
+hrg_4 = 26000
+brng_5 = "mcdonald"
+hrg_5 = 80000
+
+print ("\n\n\n\t\t\t\t======Selamat datang di freshmart======\t\t\t")
+
+print()
+print("\t1 %s - Rp %d" % (brng_1, hrg_1))
+print("\t1 %s - Rp %d" % (brng_2, hrg_2))
+print("\t1 %s - Rp %d" % (brng_3, hrg_3))
+print("\t1 %s - Rp %d" % (brng_4, hrg_4))
+print("\t1 %s - Rp %d" % (brng_5, hrg_5))
+print("\n\ttotal belanja = lecy + blackcurrent =\n")
+total_belanja = hrg_1 + hrg_2
+print(total_belanja)
+
+
+
+
+

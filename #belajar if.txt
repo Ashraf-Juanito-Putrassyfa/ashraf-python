@@ -1,0 +1,62 @@
+#belajar if
+
+hujan = True
+
+if hujan :
+    print("bawa payung")
+else:
+    print("tidak perlu bawa payung")
+    
+    
+   
+    
+    
+    
+#belajar Elif
+
+menu_pilihan = input ("masukkan pilihan (1/2/3)=")
+
+if menu_pilihan == "1":
+     print("anda memilih menu 1")
+     
+elif menu_pilihan == "2":
+     print("anda memilih menu 2")
+     
+elif menu_pilihan == "3":
+     print("anda memilih menu 3")
+     
+else: 
+    print("menu tidak tersedia")
+    
+    
+    
+    
+masukkan_nilai = input ("masukkan pilihan (90/80/70) = ")
+
+if masukkan_nilai >= "90":
+     print("nilai anda a")
+     
+elif masukkan_nilai >= "80":
+     print("nilai anda b")
+     
+elif masukkan_nilai >= "70":
+     print("nilai anda c")
+     
+else: 
+    print("nilai anda d")
+    
+    
+nilai_suhu = input ("nilai suhu (35/25) = ")
+
+if nilai_suhu >= "35":
+     print("suhunya panas banget")
+     
+elif nilai_suhu >= "25":
+     print("suhunya hangat")
+     
+elif nilai_suhu <= "25":
+     print("suhunya dingin")
+     
+else: 
+    print("suhunya dingin")
+    
